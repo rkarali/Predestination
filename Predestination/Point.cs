@@ -8,10 +8,14 @@ namespace Predestination
 {
     public class Point
     {
-        public int x { get; set; } = 0;
-        public int y { get; set; } = 0;
-        public int value { get; set; } = 0;
-        public bool isVisited { get; set; } = false;
-        public bool anotherWay { get; set; } = true;
+        public int x { get; set; }
+        public int y { get; set; }
+        public int value { get; set; }
+        public bool isVisited { get; set; }
+        public bool anotherWay { get; set; }
+        public bool? left { get; set; }
+        public bool? right { get; set; }
+        public bool? up { get; set; }
+        public bool? down { get; set; }
     }
 }
