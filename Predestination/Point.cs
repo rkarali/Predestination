@@ -13,9 +13,9 @@ namespace Predestination
         public int value { get; set; }
         public bool isVisited { get; set; }
         public bool anotherWay { get; set; }
-        public bool? left { get; set; }
-        public bool? right { get; set; }
-        public bool? up { get; set; }
-        public bool? down { get; set; }
+        //public Point left { get; set; }
+        //public Point right { get; set; }
+        //public Point up { get; set; }
+        //public Point down { get; set; }
     }
 }
